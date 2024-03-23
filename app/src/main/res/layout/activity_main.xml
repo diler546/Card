@@ -110,6 +110,54 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </FrameLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:rowCount="6"
+            android:columnCount="2">
+
+            <TextView
+                android:text="Name on card"
+                android:layout_marginLeft="20dp"
+                android:layout_columnSpan="2" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Your name" />
+
+            <TextView
+                android:text="Card number"
+                android:layout_marginLeft="20dp"
+                android:layout_columnSpan="2"
+                android:paddingTop="15dp"/>
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Your card number" />
+
+            <TextView
+                android:text="Exp Date"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="15dp"/>
+            <TextView
+                android:text="CVV"
+                android:layout_marginLeft="20dp" />
+        </GridLayout>
     </LinearLayout>
 
 

@@ -157,8 +157,28 @@
             <TextView
                 android:text="CVV"
                 android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Your Exp Date" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Your Card CVV" />
+
         </GridLayout>
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
